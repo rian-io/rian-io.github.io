@@ -1,7 +1,6 @@
 .navigation {
   background-color: var(--color-main);
   color: white;
-  font-family: "Nunito";
   height: 100px;
   line-height: 100px;
   padding: 0 45px 0 45px;
@@ -28,6 +27,7 @@
 }
 
 .navigation .brand {
+  font-family: 'IM Fell French Canon SC', serif;
   padding: 0 25px 0 25px;
   font-size: 28px;
 }
