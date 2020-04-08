@@ -1,7 +1,9 @@
 @import './settings/color.css';
+
 @import './reset.css';
 
 @import './settings/base.css';
 
+@import './containers/header.css';
 @import './containers/main.css';
 @import './containers/nav.css';

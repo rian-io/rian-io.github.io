@@ -1,0 +1,32 @@
+.header {
+  background-color: var(--color-main);
+  color: white;
+  height: 150px;
+  display: flex;
+  padding: 20px 45px 0 45px;
+}
+
+.header div {
+  width: 33.333%;
+}
+
+.header ul {
+  column-count: 2;
+  font-size: 14px;
+}
+
+.header li {
+  margin: 10px 0;
+}
+
+.header li:first-child {
+  margin-top: 0px;
+}
+
+.brand {
+  font-family: 'IM Fell French Canon SC', serif;
+}
+
+.header img {
+  width: 150px;
+}

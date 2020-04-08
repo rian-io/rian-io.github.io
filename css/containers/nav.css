@@ -1,18 +1,15 @@
 .navigation {
   background-color: var(--color-main);
   color: white;
-  height: 100px;
-  line-height: 100px;
-  padding: 0 45px 0 45px;
-}
-
-.navigation div {
-  display: inline-block;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
 }
 
 .navigation ul {
+  margin-bottom: 5px;
   list-style: none;
-  text-align: right;
   height: 100px;
 }
 
@@ -24,19 +21,4 @@
 
 .navigation li:hover {
   background-color: var(--color-detail);
-}
-
-.navigation .brand {
-  font-family: 'IM Fell French Canon SC', serif;
-  padding: 0 25px 0 25px;
-  font-size: 28px;
-}
-
-.navigation div.brand:hover {
-  background-color: var(--color-detail);
-}
-
-.navigation .menu {
-  font-size: 18px;
-  float: right;
 }
