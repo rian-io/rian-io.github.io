@@ -1,18 +1,24 @@
 .header {
   background-color: var(--color-main);
   color: white;
-  height: 150px;
-  display: flex;
-  padding: 20px 45px 0 45px;
+  display: inline-block;
+  font-family: 'Source Code+ ro', monospace;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
 }
 
-.header div {
-  width: 33.333%;
+.header .brand {
+  margin-top: 10%;
+  font-family: 'Major Mono Display', monospace;
 }
 
-.header ul {
-  column-count: 2;
-  font-size: 14px;
+.header h1 {
+  font-size: 70px
+}
+
+.header img {
+  width: 250px;
 }
 
 .header li {
@@ -23,10 +29,66 @@
   margin-top: 0px;
 }
 
-.brand {
-  font-family: 'IM Fell French Canon SC', serif;
+.scroll {
+  position: absolute;
+  bottom: 10px;
+  left: 49%;
+  padding-top: 50px;
 }
-
-.header img {
-  width: 100px;
+.scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+.scroll a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
