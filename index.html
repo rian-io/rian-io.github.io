@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -7,34 +7,38 @@
 
   <title>Rian Oliveira</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Major+Mono+Display&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Major+Mono+Display&family=Source+Code+Pro&display=swap">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-  <header class="header">
+  <header id="header" class="header">
     <div class="brand">
       <h1>Rian Oliveira</h1>
-      <h2>Developer</h2>
+      <h2>Analista de Sistemas</h2>
     </div>
     <div class="sub-header">
-      <div class="contact">
-        <figure>
-          <img src="./img/qr.svg" alt="Código QR para informações de contato">
-        </figure>
-        <ul>
-          <li>+55 (11) 22222-2222</li>
-          <li>email@email.com</li>
-          <li>Brodósqui - SP</li>
-        </ul>        
-      </div>
       <div class="social">
         <ul>
           <li><a href="https://github.com/rian-io" target="_blank"><i class="fab fa-github"></i> github</a></li>
-          <li><a href="https://www.linkedin.com/in/rianoliveira/" target="_blank"><i class="fab fa-github"></i> linkedin</a></li>
+          <li><a href="https://www.linkedin.com/in/rianoliveira/" target="_blank"><i class="fab fa-github"></i>
+              linkedin</a></li>
           <li><a href="https://www.behance.net/r_io" target="_blank"><i class="fab fa-github"></i> behance</a></li>
+        </ul>
+      </div>
+      <div class="qrcode">
+        <figure>
+          <img src="./img/qr.svg" alt="Código QR para informações de contato">
+        </figure>
+      </div>
+      <div class="contact">
+        <ul>
+          <li>rian.hp@gmail.com</li>
+          <li>+55 (11) 22222-2222</li>
+          <li>Brodósqui - SP</li>
         </ul>
       </div>
     </div>
@@ -44,17 +48,44 @@
   </header>
   <nav id="nav" class="navigation">
     <div>
-      <ul>      
-        <li><a href="#">Menu Item</a></li>
-        <li><a href="#">Menu Item</a></li>
-        <li><a href="#">Menu Item</a></li>
+      <ul>
+        <li><a href="#header">R</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
       </ul>
     </div>
   </nav>
   <main class="main">
-    <h1>
-      Sobre
-    </h1>
+    <section id="sobre">
+      <h1>
+        Sobre
+      </h1>
+      <article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut placeat sed, voluptas ea maiores, aperiam error
+        sequi praesentium commodi<br> id unde corporis quam! Dignissimos quibusdam suscipit ipsa, sunt voluptatibus
+        reprehenderit?
+      </article>
+    </section>
+    <section id="formacao">
+      <h1>
+        Formação
+      </h1>
+      <article>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dolore sequi ducimus explicabo labore
+        tenetur, totam dolor voluptatum aliquid, rem odit saepe aut accusantium dicta dignissimos praesentium hic.
+        Animi, nesciunt!
+      </article>
+    </section>
+    <section id="experiencia">
+      <h1>
+        Experiência
+      </h1>
+      <article>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus odit animi voluptates eos nihil voluptatum
+        iusto ut quibusdam, debitis explicabo sint voluptatem velit deserunt, optio hic beatae numquam sunt excepturi.
+      </article>
+    </section>
   </main>
 </body>
 

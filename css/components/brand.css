@@ -1,0 +1,12 @@
+.brand {
+  margin-top: 10%;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.header h1 {
+  font-size: 70px
+}
+
+.header h2 {
+  margin-top: 2%;
+}

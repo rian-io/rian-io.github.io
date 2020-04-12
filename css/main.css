@@ -1,9 +1,15 @@
-@import './settings/color.css';
-
 @import './reset.css';
 
+@import './settings/color.css';
 @import './settings/base.css';
 
 @import './containers/header.css';
 @import './containers/main.css';
 @import './containers/nav.css';
+@import './containers/subheader.css';
+
+@import './components/brand.css';
+@import './components/contact.css';
+@import './components/qrcode.css';
+@import './components/scrolls.css';
+@import './components/social.css';
