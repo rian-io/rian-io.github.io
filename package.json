@@ -11,6 +11,7 @@
     "deploy": "nuxt generate && gh-pages --dotfiles -d .output/public"
   },
   "dependencies": {
+    "@nuxtjs/color-mode": "^3.5.2",
     "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"
