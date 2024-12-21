@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: process.env.NODE_ENV === "production" ? "/rian-io.hithub.io/" : "/",
-    buildAssetsDir: "assets",
+    buildAssetsDir: "assets/styles",
     head: {
       titleTemplate: '%s - Rian Oliveira',
       htmlAttrs: {
