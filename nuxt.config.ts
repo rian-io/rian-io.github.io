@@ -9,14 +9,14 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: process.env.NODE_ENV === "production" ? "/rian-io.hithub.io/" : "/",
-    buildAssetsDir: "assets/styles",
+    baseURL: "/",
+    buildAssetsDir: "assets/",
     head: {
       titleTemplate: '%s - Rian Oliveira',
       htmlAttrs: {
         lang: 'en'
       },
-      base: { href: '/rian-io.hithub.io/' },
+      base: { href: '/' },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     },
   },
   css: [
-    '~/assets/styles/main.css' // Global CSS
+    '@/assets/styles/main.css' // Global CSS
   ],
   modules: [
     '@nuxtjs/color-mode',
