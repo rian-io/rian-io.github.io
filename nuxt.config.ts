@@ -2,12 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  ssr: true,
-  hooks: {
-    'prerender:routes'({ routes }) {
-      routes.clear() // Do not generate any routes (except the defaults)
-    }
-  },
+  ssr: false,
   app: {
     baseURL: "/",
     buildAssetsDir: "assets/",
