@@ -16,6 +16,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en'
       },
+      base: { href: '/rian-io.hithub.io/' },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
